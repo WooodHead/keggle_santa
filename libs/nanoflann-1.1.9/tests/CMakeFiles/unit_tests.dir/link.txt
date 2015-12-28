@@ -1,0 +1,1 @@
+/usr/bin/c++   -isystem gtest-1.7.0/fused-src -pthread   CMakeFiles/unit_tests.dir/test_main.cpp.o  -o unit_tests -rdynamic gtest-1.7.0/libgtest.a -lpthread 

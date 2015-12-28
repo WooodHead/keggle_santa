@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -O0 -O2 -mtune=native -Wall -pedantic   CMakeFiles/pointcloud_example.dir/pointcloud_example.cpp.o  -o ../bin/pointcloud_example -rdynamic 

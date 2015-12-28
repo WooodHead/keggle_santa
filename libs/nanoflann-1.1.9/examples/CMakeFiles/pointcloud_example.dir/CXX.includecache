@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexey/development/cpp_projects/keggle_santa/libs/nanoflann-1.1.9/examples/pointcloud_example.cpp
+nanoflann.hpp
+-
+cstdlib
+-
+iostream
+-
+
+libs/nanoflann-1.1.9/include/nanoflann.hpp
+vector
+-
+cassert
+-
+algorithm
+-
+stdexcept
+-
+cstdio
+-
+cmath
+-
+limits
+-
+

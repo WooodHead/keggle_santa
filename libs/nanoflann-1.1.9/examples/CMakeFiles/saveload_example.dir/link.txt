@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -O0 -O2 -mtune=native -Wall -pedantic   CMakeFiles/saveload_example.dir/saveload_example.cpp.o  -o ../bin/saveload_example -rdynamic 

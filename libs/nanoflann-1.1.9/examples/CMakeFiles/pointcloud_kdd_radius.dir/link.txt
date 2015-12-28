@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -O0 -O2 -mtune=native -Wall -pedantic   CMakeFiles/pointcloud_kdd_radius.dir/pointcloud_kdd_radius.cpp.o  -o ../bin/pointcloud_kdd_radius -rdynamic 
