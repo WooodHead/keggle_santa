@@ -18,7 +18,7 @@ using namespace std;
 
 class IOhelper{
 public:
-    IOhelper(string input_data_file): input_data_file(input_data_file){}
+    IOhelper(string input_data_file);
 
     Solution GenerateSolution();
     Solution LoadSolution(const string & solution_fn);
@@ -30,6 +30,9 @@ private:
     string input_data_file;
     vector<Route> GenerateDumbSolution2(GlobalGiftData gifts);
 };
+
+bool FileExists(const string & file_name);
+
 
 vector<Gift>
 LoadGifts(const string & file_name);

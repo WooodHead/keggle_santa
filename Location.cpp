@@ -60,8 +60,11 @@ FloatType Dist(const Location &loc1, const Location &loc2)
 
     auto res = HaversineDistance(loc1, loc2);
     //auto res = NormalDistance(loc1, loc2);
+    if(res<0){
+        auto k = 5;
+    }
 
-    assert(res>0);
+    assert(res>=0);
     return res;
 }
 

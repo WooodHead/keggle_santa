@@ -17,10 +17,21 @@
 
 using namespace std;
 
-auto data_file = "/home/alexey/santa_data/gifts.csv";
 
-auto sol_file = "/home/alexey/santa_data/sol.csv";
+#ifdef linux
+auto data_file = "/home/alexey/santa_data/gifts.csv";
 auto sol_file1 = "/home/alexey/santa_data/sol1.csv";
+auto sol_file = "/home/alexey/santa_data/sol.csv";
+auto sol_file6 = "/home/alexey/santa_data/sol6.csv";
+
+#else
+auto data_file = "C:\\Users\\alexey\\Downloads\\gifts.csv";
+auto sol_file1 = "C:\\Users\\alexey\\Downloads\\sol1.csv";
+auto sol_file = "C:\\Users\\alexey\\Downloads\\sol.csv";
+auto sol_file6 = "C:\\Users\\alexey\\Downloads\\sol6.csv";
+#endif
+
+
 auto sol_file2 = "/home/alexey/santa_data/sol2.csv";
 auto sol_file3 = "/home/alexey/santa_data/sol3.csv";
 auto sol_file4 = "/home/alexey/santa_data/sol4.csv";
@@ -32,12 +43,25 @@ int main()
 {
 
     IOhelper io(data_file);
-    auto sol = io.GenerateSolution();
+    //auto sol = io.GenerateSolution();
+
+    //29121011015
+    auto sol = io.LoadSolution(sol_file6);
     auto obj_func1 = evaluate_solution(sol.Gifts(), sol.routes);
+
 
     SimulatedAnnealing sa(sol);
     sa.work();
 
+    auto obj_func2 = evaluate_solution(sol.Gifts(), sol.routes);
+    auto diff = obj_func2 - obj_func1;
+    cout << obj_func1 << endl;
+    cout << obj_func2 << endl;
+
+    io.SaveSolution(sol, sol_file);
+
+   // 14424115336.83740
+   //128706931626.14400
 
     /*
     vector<Gift> gifts = {

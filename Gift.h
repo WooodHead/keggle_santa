@@ -25,10 +25,10 @@ namespace internal {
     struct GiftIDTag { };
 }
 
-using RouteID = Explicit<IntType, internal::RouteIDTag>;
-using GiftID = Explicit<IntType, internal::GiftIDTag>;
-//using RouteID = IntType;
-//using GiftID = IntType;
+//using RouteID = Explicit<IntType, internal::RouteIDTag>;
+//using GiftID = Explicit<IntType, internal::GiftIDTag>;
+using RouteID = IntType;
+using GiftID = IntType;
 
 
 using GiftIDMap = vector<RouteID>;

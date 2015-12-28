@@ -18,7 +18,7 @@ class Solution
 public:
 	Solution(const vector<Gift> &gl_gift_data)
 		: gl_gift_data(gl_gift_data),
-			gift_to_route_index(gl_gift_data.size()),
+            gift_to_route_index(gl_gift_data.size(), -1),
 			gift_add_info(gl_gift_data.size())
 	{ }
 
@@ -28,6 +28,15 @@ public:
         return Dist(loc1, loc2);
     }
 
+
+    RouteID GetRouteID(GiftID gift_id){
+        return gift_to_route_index[gift_id];
+    }
+    const Gift & GetGift(GiftID gift_id){
+        return this->gl_gift_data[gift_id];
+    }
+
+
     GlobalGiftData Gifts(){return gl_gift_data;}
 
 
@@ -35,6 +44,7 @@ public:
 
 	vector<Route> routes;
 	vector<RouteID> gift_to_route_index;
+
 	vector<GiftIndexData> gift_add_info;
 };
 
@@ -43,7 +53,7 @@ using GenerateFuncType = std::function<vector<Route>(GlobalGiftData giftData)>;
 
 Solution StartingSolution(GlobalGiftData giftData, GenerateFuncType func);
 
-Solution StartingSolution(GlobalGiftData giftData);
+//Solution StartingSolution(GlobalGiftData giftData);
 
 
 

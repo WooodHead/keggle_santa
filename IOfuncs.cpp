@@ -227,6 +227,15 @@ vector<Route> IOhelper::GenerateDumbSolution2(GlobalGiftData gifts){
     return res;
 }
 
+IOhelper::IOhelper(string input_data_file):
+    input_data_file(input_data_file)
+{
+
+    assert( FileExists(input_data_file) );
+
+    //iostream
+}
+
 Solution IOhelper::GenerateSolution(){
     static auto gifts = LoadGifts(input_data_file);
     GenerateFuncType gen_func = [&](GlobalGiftData giftData){
@@ -238,6 +247,8 @@ Solution IOhelper::GenerateSolution(){
 }
 
 Solution IOhelper::LoadSolution(const string &solution_fn){
+    assert( FileExists(solution_fn) );
+
     static auto gifts = LoadGifts(input_data_file);
 
     GenerateFuncType gen_func = [&](GlobalGiftData giftData){
@@ -249,4 +260,17 @@ Solution IOhelper::LoadSolution(const string &solution_fn){
 
 void IOhelper::SaveSolution(const Solution &sol, const string &solution_fn){
     WriteSolution(solution_fn, sol.routes, sol.gl_gift_data);
+}
+
+bool FileExists(const string &file_name)
+{
+    ifstream f(file_name.c_str());
+    if (f.good()) {
+        f.close();
+        return true;
+    }
+    else{
+        f.close();
+        return false;
+    }
 }

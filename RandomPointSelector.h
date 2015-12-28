@@ -60,7 +60,7 @@ public:
     MoveData RandomMove(){
         std::uniform_int_distribution<int> route_gen(
             0,
-            sol->routes.size()
+            sol->routes.size()-1
         );
 
         MoveData res;
