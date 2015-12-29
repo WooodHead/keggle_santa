@@ -45,7 +45,7 @@ void test_route_evaluation1(){
 }
 
 void test_solution_evaluation2(){
-    const sol6 = static_data::solution6();
+    const auto sol6 = static_data::solution6();
     FloatType r_weight, r_weight_req;
     r_weight = evaluate_solution(
                 static_data::gifts_values(),
