@@ -98,8 +98,11 @@ private:
 
                 auto diff = remove_v - add_v;
                 if(diff > max_diff ){
-                    res = {p_route_id, p_r_idex, nn_p_route_id, nn_r_idex, p};
+
+                    // kapacb
+                    //res = {p_route_id, p_r_idex, nn_p_route_id, nn_r_idex, p};
                     max_diff = diff;
+
 //                    p_r.remove(p_r_idex);
 //                    nn_r.insert(nn_r_idex, p);
 //                    p_r.BuildIndexes(sol.gift_add_info);

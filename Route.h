@@ -19,9 +19,11 @@ using namespace std;
 
 class Route{
 public:
-	Route(GlobalGiftData gift_data)
-		: gift_data(gift_data)
-	{ }
+    Route(GlobalGiftData gift_data):gift_data(gift_data){ }
+    Route(GlobalGiftData gift_data,
+          initializer_list<GiftID> gift_ids):gift_data(gift_data){
+        this->add(gift_ids);
+    }
 
     //Route(Route const &) = delete;
     void operator=(Route const &r) = delete;
@@ -44,6 +46,7 @@ public:
         return (weight + gift_data[gift_id].Weight())<=limit;
     }
 
+    vector<FloatType> GenWeights();
 
 	inline
 	FloatType Weight(){return weight;}

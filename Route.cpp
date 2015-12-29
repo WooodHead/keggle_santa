@@ -99,7 +99,16 @@ void Route::remove(size_t pos){
     weight -= gift.Weight();
 
     auto iter = next(gift_ids.begin(),pos);
-    gift_ids.erase(iter);        
+    gift_ids.erase(iter);
+}
+
+vector<FloatType> Route::GenWeights()
+{
+    vector<FloatType> res;
+    for(auto g_id: this->gift_ids){
+        res.push_back(this->gift_data[g_id].Weight());
+    }
+    return res;
 }
 
 FloatType Route::EstRemoveNode(IntType index){

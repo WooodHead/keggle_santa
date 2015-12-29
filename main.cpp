@@ -13,6 +13,8 @@
 #include "Solution.h"
 #include "SimulatedAnnealing.h"
 
+#include "SCIP_solver.h"
+
 //#include "gecodesupport.h"
 
 using namespace std;
@@ -38,9 +40,19 @@ auto sol_file4 = "/home/alexey/santa_data/sol4.csv";
 
 
 //#include "libs/gecode_examples/examples/warehouses.cpp"
+#include "testing/gift_testing_data.h"
+#include "testing/evaluation_test.h"
 
 int main()
 {
+    test_route_evaluation();
+//    route_evaluation(
+//    auto vals = gifts_values;
+
+//    gifts_values
+
+    scip_main();
+
 
     IOhelper io(data_file);
     //auto sol = io.GenerateSolution();
@@ -49,6 +61,8 @@ int main()
     // 128706931626
     auto sol = io.LoadSolution(sol_file6);
     auto obj_func1 = evaluate_solution(sol.Gifts(), sol.routes);
+
+
 
 
     SimulatedAnnealing sa(sol);
