@@ -16,11 +16,7 @@
 class Solution
 {
 public:
-	Solution(const vector<Gift> &gl_gift_data)
-		: gl_gift_data(gl_gift_data),
-            gift_to_route_index(gl_gift_data.size(), -1),
-			gift_add_info(gl_gift_data.size())
-	{ }
+    Solution(const vector<Gift> &gl_gift_data);
 
     FloatType Distance(GiftID g1, GiftID g2){
         auto loc1 = gl_gift_data[g1].Loc();
@@ -28,6 +24,7 @@ public:
         return Dist(loc1, loc2);
     }
 
+    Route & GetRoute(RouteID route_id);
 
     RouteID GetRouteID(GiftID gift_id){
         return gift_to_route_index[gift_id];
@@ -36,8 +33,10 @@ public:
         return this->gl_gift_data[gift_id];
     }
 
+    RouteID BFGetRouteForGift(GiftID gift_id);
 
-    GlobalGiftData Gifts(){return gl_gift_data;}
+    GlobalGiftData Gifts() const;
+    const vector<Route>& Routes()const;
 
 
 	GlobalGiftData gl_gift_data;
@@ -45,14 +44,18 @@ public:
 	vector<Route> routes;
 	vector<RouteID> gift_to_route_index;
 
-	vector<GiftIndexData> gift_add_info;
+    vector<GiftIndexData> gift_add_info;
 };
+
 
 using GenerateFuncType = std::function<vector<Route>(GlobalGiftData giftData)>;
 
+FloatType evaluate_solution(const Solution & sol);
 
+Solution StartingSolution(GlobalGiftData giftData, const vector<Route> & routes);
 Solution StartingSolution(GlobalGiftData giftData, GenerateFuncType func);
 
+void CompareSolutions(const Solution & sol1, const Solution & sol2);
 //Solution StartingSolution(GlobalGiftData giftData);
 
 

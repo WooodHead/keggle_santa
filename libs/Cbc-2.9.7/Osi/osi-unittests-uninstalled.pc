@@ -1,0 +1,10 @@
+prefix=/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7
+libdir=/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/Osi/src/OsiCommonTest
+
+Name: OsiUnitTests
+Description: COIN-OR Open Solver Interface Common Unit Tests
+URL: https://projects.coin-or.org/Osi
+Version: 0.107.6
+Libs: ${libdir}/libOsiCommonTests.la
+Cflags: -I/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/Osi/src/OsiCommonTest
+Requires: osi

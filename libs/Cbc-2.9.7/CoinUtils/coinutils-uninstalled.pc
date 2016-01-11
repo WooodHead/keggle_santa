@@ -1,0 +1,10 @@
+prefix=/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7
+libdir=/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/CoinUtils/src
+
+Name: CoinUtils
+Description: COIN-OR Utilities
+URL: https://projects.coin-or.org/CoinUtils
+Version: 2.10.11
+Libs: ${libdir}/libCoinUtils.la -lbz2 -lz -llapack -lblas -lm 
+Cflags: -I/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/CoinUtils/src -I/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/CoinUtils/src
+Requires: 

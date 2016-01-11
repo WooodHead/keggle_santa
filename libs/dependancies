@@ -1,0 +1,1 @@
+sudo apt-get install bison flex libreadline-dev lib32ncurses5-dev

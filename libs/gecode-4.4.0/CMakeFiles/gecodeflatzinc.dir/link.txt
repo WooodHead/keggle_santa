@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgecodeflatzinc.a  CMakeFiles/gecodeflatzinc.dir/gecode/flatzinc/flatzinc.cpp.o CMakeFiles/gecodeflatzinc.dir/gecode/flatzinc/registry.cpp.o CMakeFiles/gecodeflatzinc.dir/gecode/flatzinc/parser.tab.cpp.o CMakeFiles/gecodeflatzinc.dir/gecode/flatzinc/lexer.yy.cpp.o CMakeFiles/gecodeflatzinc.dir/gecodeflatzinc_automoc.cpp.o
+/usr/bin/ranlib libgecodeflatzinc.a

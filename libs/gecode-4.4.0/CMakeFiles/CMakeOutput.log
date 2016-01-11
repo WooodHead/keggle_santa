@@ -1,0 +1,932 @@
+The system is: Linux - 3.16.0-57-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/3.4.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/3.4.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0b90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0b90.dir/build.make CMakeFiles/cmTC_d0b90.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0b90.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d0b90.dir/testCCompiler.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d0b90
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0b90.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d0b90.dir/testCCompiler.c.o  -o cmTC_d0b90 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f89f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f89f2.dir/build.make CMakeFiles/cmTC_f89f2.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f89f2.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f89f2.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.4/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f89f2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f89f2.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_f89f2.dir/CMakeCCompilerABI.c.o  -o cmTC_f89f2 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.3-8ubuntu2~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.3 (Ubuntu 4.9.3-8ubuntu2~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f89f2' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5lG3Ez.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f89f2 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTC_f89f2.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f89f2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f89f2.dir/build.make CMakeFiles/cmTC_f89f2.dir/build]
+  ignore line: [make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f89f2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_f89f2.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.4/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f89f2]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f89f2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_f89f2.dir/CMakeCCompilerABI.c.o  -o cmTC_f89f2 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.3-8ubuntu2~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (Ubuntu 4.9.3-8ubuntu2~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f89f2' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5lG3Ez.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f89f2 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTC_f89f2.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5lG3Ez.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f89f2] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTC_f89f2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47f2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47f2d.dir/build.make CMakeFiles/cmTC_47f2d.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47f2d.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_47f2d.dir/feature_tests.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_47f2d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47f2d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_47f2d.dir/feature_tests.c.o  -o cmTC_47f2d -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40a2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40a2f.dir/build.make CMakeFiles/cmTC_40a2f.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40a2f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_40a2f.dir/feature_tests.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_40a2f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40a2f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_40a2f.dir/feature_tests.c.o  -o cmTC_40a2f -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d097/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d097.dir/build.make CMakeFiles/cmTC_9d097.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d097.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_9d097.dir/feature_tests.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9d097
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d097.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9d097.dir/feature_tests.c.o  -o cmTC_9d097 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_012e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_012e3.dir/build.make CMakeFiles/cmTC_012e3.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_012e3.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_012e3.dir/testCXXCompiler.cxx.o -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_012e3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_012e3.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_012e3.dir/testCXXCompiler.cxx.o  -o cmTC_012e3 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b00d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b00d.dir/build.make CMakeFiles/cmTC_3b00d.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3b00d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_3b00d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_3b00d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b00d.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_3b00d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3b00d -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.3-8ubuntu2~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.3 (Ubuntu 4.9.3-8ubuntu2~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3b00d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cclvQ4MX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3b00d /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTC_3b00d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3b00d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3b00d.dir/build.make CMakeFiles/cmTC_3b00d.dir/build]
+  ignore line: [make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_3b00d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_3b00d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_3b00d]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b00d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_3b00d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3b00d -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.3-8ubuntu2~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (Ubuntu 4.9.3-8ubuntu2~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3b00d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cclvQ4MX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3b00d /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTC_3b00d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclvQ4MX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3b00d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTC_3b00d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e678/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e678.dir/build.make CMakeFiles/cmTC_7e678.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7e678.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_7e678.dir/feature_tests.cxx.o -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7e678
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e678.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_7e678.dir/feature_tests.cxx.o  -o cmTC_7e678 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_430a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_430a0.dir/build.make CMakeFiles/cmTC_430a0.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_430a0.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_430a0.dir/feature_tests.cxx.o -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_430a0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_430a0.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_430a0.dir/feature_tests.cxx.o  -o cmTC_430a0 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbd78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbd78.dir/build.make CMakeFiles/cmTC_dbd78.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dbd78.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_dbd78.dir/feature_tests.cxx.o -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_dbd78
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbd78.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_dbd78.dir/feature_tests.cxx.o  -o cmTC_dbd78 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test HAVE_VISIBILITY_HIDDEN_FLAG succeded with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbf7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbf7d.dir/build.make CMakeFiles/cmTC_fbf7d.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fbf7d.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_VISIBILITY_HIDDEN_FLAG   -fvisibility=hidden -o CMakeFiles/cmTC_fbf7d.dir/src.cxx.o -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fbf7d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbf7d.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_VISIBILITY_HIDDEN_FLAG    CMakeFiles/cmTC_fbf7d.dir/src.cxx.o  -o cmTC_fbf7d -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8a44/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8a44.dir/build.make CMakeFiles/cmTC_e8a44.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e8a44.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_e8a44.dir/CheckSymbolExists.cxx.o -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_e8a44
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8a44.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e8a44.dir/CheckSymbolExists.cxx.o  -o cmTC_e8a44 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+File /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e16e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e16e7.dir/build.make CMakeFiles/cmTC_e16e7.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e16e7.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e16e7.dir/CheckSymbolExists.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e16e7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e16e7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e16e7.dir/CheckSymbolExists.c.o  -o cmTC_e16e7 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+File /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mmap exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b238/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b238.dir/build.make CMakeFiles/cmTC_1b238.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b238.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1b238.dir/CheckSymbolExists.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1b238
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b238.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1b238.dir/CheckSymbolExists.c.o  -o cmTC_1b238 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+File /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6041f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6041f.dir/build.make CMakeFiles/cmTC_6041f.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6041f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6041f.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_6041f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6041f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6041f.dir/CheckIncludeFiles.c.o  -o cmTC_6041f -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a281f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a281f.dir/build.make CMakeFiles/cmTC_a281f.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a281f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a281f.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a281f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a281f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a281f.dir/CheckIncludeFiles.c.o  -o cmTC_a281f -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fa04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3fa04.dir/build.make CMakeFiles/cmTC_3fa04.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fa04.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3fa04.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_3fa04
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fa04.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3fa04.dir/CheckIncludeFiles.c.o  -o cmTC_3fa04 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41018/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41018.dir/build.make CMakeFiles/cmTC_41018.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41018.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_41018.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_41018
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41018.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_41018.dir/CheckIncludeFiles.c.o  -o cmTC_41018 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb942/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb942.dir/build.make CMakeFiles/cmTC_fb942.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb942.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_fb942.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_fb942
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb942.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fb942.dir/CheckIncludeFiles.c.o  -o cmTC_fb942 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_720eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_720eb.dir/build.make CMakeFiles/cmTC_720eb.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_720eb.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_720eb.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_720eb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_720eb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_720eb.dir/CheckIncludeFiles.c.o  -o cmTC_720eb -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9c5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9c5e.dir/build.make CMakeFiles/cmTC_a9c5e.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9c5e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a9c5e.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a9c5e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9c5e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a9c5e.dir/CheckIncludeFiles.c.o  -o cmTC_a9c5e -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1bc9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1bc9.dir/build.make CMakeFiles/cmTC_b1bc9.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1bc9.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b1bc9.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b1bc9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1bc9.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b1bc9.dir/CheckIncludeFiles.c.o  -o cmTC_b1bc9 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aabaf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aabaf.dir/build.make CMakeFiles/cmTC_aabaf.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aabaf.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_aabaf.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_aabaf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aabaf.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_aabaf.dir/CheckIncludeFiles.c.o  -o cmTC_aabaf -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d42b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d42b7.dir/build.make CMakeFiles/cmTC_d42b7.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d42b7.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d42b7.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d42b7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d42b7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d42b7.dir/CheckIncludeFiles.c.o  -o cmTC_d42b7 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c1a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c1a8.dir/build.make CMakeFiles/cmTC_2c1a8.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c1a8.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2c1a8.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_2c1a8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c1a8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2c1a8.dir/CheckIncludeFiles.c.o  -o cmTC_2c1a8 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h exist passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf7d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf7d7.dir/build.make CMakeFiles/cmTC_bf7d7.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf7d7.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_bf7d7.dir/CheckIncludeFiles.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_bf7d7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf7d7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bf7d7.dir/CheckIncludeFiles.c.o  -o cmTC_bf7d7 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_EXT_HASH_MAP succeded with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c8b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c8b1.dir/build.make CMakeFiles/cmTC_4c8b1.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4c8b1.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_EXT_HASH_MAP   -o CMakeFiles/cmTC_4c8b1.dir/src.cxx.o -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/src.cxx
+In file included from /usr/include/c++/4.9/ext/hash_map:60:0,
+                 from /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/c++/4.9/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+Linking CXX executable cmTC_4c8b1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c8b1.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_EXT_HASH_MAP    CMakeFiles/cmTC_4c8b1.dir/src.cxx.o  -o cmTC_4c8b1 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+   #include <ext/hash_map>
+   int main() {}
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee081/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee081.dir/build.make CMakeFiles/cmTC_ee081.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee081.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ee081.dir/CheckIncludeFile.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ee081
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee081.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ee081.dir/CheckIncludeFile.c.o  -o cmTC_ee081 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_13ece/fast"
+/usr/bin/make -f CMakeFiles/cmTC_13ece.dir/build.make CMakeFiles/cmTC_13ece.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13ece.dir/SIZEOF_INT.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_13ece.dir/SIZEOF_INT.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_13ece
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13ece.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_13ece.dir/SIZEOF_INT.c.o  -o cmTC_13ece -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_ALWAYS_INLINE succeded with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_145d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_145d7.dir/build.make CMakeFiles/cmTC_145d7.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_145d7.dir/src.c.o
+/usr/bin/cc    -DHAVE_ALWAYS_INLINE   -o CMakeFiles/cmTC_145d7.dir/src.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_145d7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_145d7.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_ALWAYS_INLINE    CMakeFiles/cmTC_145d7.dir/src.c.o  -o cmTC_145d7 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  inline __attribute__ ((__always_inline__)) void foo(void) {}
+  int main() {}
+Performing C SOURCE FILE Test HAVE_BUILTIN_FFSL succeded with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16675/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16675.dir/build.make CMakeFiles/cmTC_16675.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16675.dir/src.c.o
+/usr/bin/cc    -DHAVE_BUILTIN_FFSL   -o CMakeFiles/cmTC_16675.dir/src.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_16675
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16675.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_BUILTIN_FFSL    CMakeFiles/cmTC_16675.dir/src.c.o  -o cmTC_16675 -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  int main() { return __builtin_ffsl(0); }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1fcb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1fcb.dir/build.make CMakeFiles/cmTC_b1fcb.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1fcb.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b1fcb.dir/CheckIncludeFile.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b1fcb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1fcb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b1fcb.dir/CheckIncludeFile.c.o  -o cmTC_b1fcb -rdynamic 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26563/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26563.dir/build.make CMakeFiles/cmTC_26563.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26563.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_26563.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26563
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26563.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_26563.dir/CheckFunctionExists.c.o  -o cmTC_26563 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+
+

@@ -4,10 +4,21 @@
 
 #include "Route.h"
 
+
+
 FloatType evaluate_solution(GlobalGiftData g_data, const vector<Route> &routes){
     FloatType res = 0.0;
     for(const auto & r: routes){
         res += route_evaluation(g_data, r);
+    }
+    return res;
+}
+
+vector<FloatType> routes_eval_values(GlobalGiftData g_data,
+                                     const vector<Route> & routes){
+    vector<FloatType> res;
+    for(const auto & r: routes){
+        res.push_back(route_evaluation(g_data, r));
     }
     return res;
 }
@@ -102,6 +113,15 @@ void Route::remove(size_t pos){
     gift_ids.erase(iter);
 }
 
+bool Route::BFContains(GiftID gift_id)
+{
+    auto it = find(
+                this->gift_ids.begin(),
+                this->gift_ids.end(),
+                gift_id);
+    return it != this->gift_ids.end();
+}
+
 vector<FloatType> Route::GenWeights()
 {
     vector<FloatType> res;
@@ -111,7 +131,42 @@ vector<FloatType> Route::GenWeights()
     return res;
 }
 
-FloatType Route::EstRemoveNode(IntType index){
+vector<FloatType> Route::GenDistances() const{
+    vector<FloatType> res;
+
+    assert(this->gift_ids.size()>0);
+
+
+    Location l1 = north_pole;
+    Location l2 = this->gift_data[gift_ids[0]].Loc();
+    res.push_back(Dist(l1,l2));
+
+    for (int i = 1; i < this->gift_ids.size(); ++i) {
+        const Location & l1 = this->gift_data[gift_ids[i-1]].Loc();
+        const Location & l2 = this->gift_data[gift_ids[i]].Loc();
+        res.push_back(Dist(l1,l2));
+    }
+
+    l1 = gift_data[gift_ids[gift_ids.size()-1]].Loc();
+    l2 = north_pole;
+    res.push_back(Dist(l1,l2));
+
+    return res;
+}
+
+IntType Route::GetGiftPos(GiftID gift_id) const
+{
+
+    auto it = find(
+                gift_ids.begin(), gift_ids.end(),
+                gift_id);
+    assert(it != this->gift_ids.end());
+
+    auto pos = std::distance(gift_ids.begin(), it);
+    return pos;
+}
+
+FloatType Route::EstRemoveNode(IntType index) const{
     assert(index < this->gift_ids.size());
 
     auto gift_id = gift_ids[index];
@@ -172,7 +227,23 @@ private:
     const Route & r;
 };
 
-FloatType Route::EstAddNode(size_t pos, GiftID gift_id){
+
+class ChangedNodeGiftGetter{
+public:
+    ChangedNodeGiftGetter(size_t pos, GiftID gift_id):pos(pos), gift_id(gift_id){
+    }
+
+
+private:
+    size_t pos;
+    GiftID gift_id;
+};
+
+FloatType Route::EstChangeNode(size_t pos, GiftID gift_id) const{
+    ChangedNodeGiftGetter
+}
+
+FloatType Route::EstAddNode(size_t pos, GiftID gift_id) const{
     if(pos>= this->gift_ids.size())
         throw RouteAccessException(*this, pos);
 
@@ -220,14 +291,25 @@ FloatType Route::EstAddNode(size_t pos, GiftID gift_id){
     return dist*node_w + (w0)*dist_diff;
 }
 
-const Location &Route::PrevLoc(IntType pos){
+const Location &Route::PrevLoc(IntType pos) const{
     if(pos == 0)
         return north_pole;
     else
         return this->gift_data[gift_ids[pos-1]].Loc();
 }
 
-const Location &Route::NextLoc(IntType pos){
+FloatType Route::Weight() const{
+    return weight;
+}
+
+FloatType Route::Distance() const
+{
+    auto distances = GenDistances();
+    auto sum = std::accumulate(distances.begin(), distances.end(), 0.0);
+    return sum;
+}
+
+const Location &Route::NextLoc(IntType pos) const{
     if(pos == this->gift_ids.size()-1 )
         return north_pole;
     else

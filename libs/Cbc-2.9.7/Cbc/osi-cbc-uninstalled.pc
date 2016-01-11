@@ -1,0 +1,10 @@
+prefix=/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7
+libdir=/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/Cbc/src/OsiCbc
+
+Name: OsiCbc
+Description: COIN-OR Open Solver Interface for CBC
+URL: https://projects.coin-or.org/Osi
+Version: 2.9.7
+Libs: ${libdir}/libOsiCbc.la
+Cflags: -I/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/Cbc/src/OsiCbc
+Requires: cbc

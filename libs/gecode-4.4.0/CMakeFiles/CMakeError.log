@@ -1,0 +1,144 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7962/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7962.dir/build.make CMakeFiles/cmTC_a7962.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7962.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_a7962.dir/CheckSymbolExists.cxx.o -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTC_a7962.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+make: *** [cmTC_a7962/fast] Error 2
+
+File /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d954/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d954.dir/build.make CMakeFiles/cmTC_7d954.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d954.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_7d954.dir/CheckSymbolExists.cxx.o -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTC_7d954.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+make: *** [cmTC_7d954/fast] Error 2
+
+File /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ec4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ec4d.dir/build.make CMakeFiles/cmTC_0ec4d.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ec4d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_0ec4d.dir/CheckSymbolExists.cxx.o -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTC_0ec4d.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+make: *** [cmTC_0ec4d/fast] Error 2
+
+File /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15ecb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15ecb.dir/build.make CMakeFiles/cmTC_15ecb.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15ecb.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_15ecb.dir/CheckSymbolExists.c.o   -c /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_15ecb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15ecb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_15ecb.dir/CheckSymbolExists.c.o  -o cmTC_15ecb -rdynamic 
+CMakeFiles/cmTC_15ecb.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_15ecb] Error 1
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+make: *** [cmTC_15ecb/fast] Error 2
+
+File /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_758d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_758d5.dir/build.make CMakeFiles/cmTC_758d5.dir/build
+make[1]: Entering directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_758d5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_758d5.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_758d5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_758d5.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_758d5.dir/CheckFunctionExists.c.o  -o cmTC_758d5 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_758d5] Error 1
+make[1]: Leaving directory `/home/alexey/development/cpp_projects/keggle_santa/libs/gecode-4.4.0/CMakeFiles/CMakeTmp'
+make: *** [cmTC_758d5/fast] Error 2
+
+

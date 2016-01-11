@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgecodekernel.a  CMakeFiles/gecodekernel.dir/gecode/kernel/archive.cpp.o CMakeFiles/gecodekernel.dir/gecode/kernel/core.cpp.o CMakeFiles/gecodekernel.dir/gecode/kernel/memory-manager.cpp.o CMakeFiles/gecodekernel.dir/gecode/kernel/branch.cpp.o CMakeFiles/gecodekernel.dir/gecode/kernel/region.cpp.o CMakeFiles/gecodekernel.dir/gecode/kernel/afc.cpp.o CMakeFiles/gecodekernel.dir/gecode/kernel/activity.cpp.o CMakeFiles/gecodekernel.dir/gecode/kernel/rnd.cpp.o CMakeFiles/gecodekernel.dir/gecodekernel_automoc.cpp.o
+/usr/bin/ranlib libgecodekernel.a

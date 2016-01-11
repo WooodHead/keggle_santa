@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgecodesupport.a  CMakeFiles/gecodesupport.dir/gecode/support/exception.cpp.o CMakeFiles/gecodesupport.dir/gecode/support/heap.cpp.o CMakeFiles/gecodesupport.dir/gecode/support/thread/thread.cpp.o CMakeFiles/gecodesupport.dir/gecode/support/thread/windows.cpp.o CMakeFiles/gecodesupport.dir/gecode/support/thread/pthreads.cpp.o CMakeFiles/gecodesupport.dir/gecode/support/hw-rnd.cpp.o CMakeFiles/gecodesupport.dir/gecodesupport_automoc.cpp.o
+/usr/bin/ranlib libgecodesupport.a

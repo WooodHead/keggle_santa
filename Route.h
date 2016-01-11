@@ -36,6 +36,8 @@ public:
 
     void remove(size_t pos);
 
+    bool BFContains(GiftID gift_id);
+
 	inline
 	bool can_add(GiftID gift_id){
 		return (weight + gift_data[gift_id].Weight())<=sleigh_weight_limit;
@@ -47,9 +49,14 @@ public:
     }
 
     vector<FloatType> GenWeights();
+    vector<FloatType> GenDistances() const;
 
-	inline
-	FloatType Weight(){return weight;}
+    IntType GetGiftPos(GiftID gift_id) const;
+
+
+    FloatType Weight() const;
+    FloatType Distance() const;
+
 
 	// iterator implementation
 	auto begin() const{
@@ -61,7 +68,7 @@ public:
 
 	IntType size() const {return gift_ids.size();}
 	GiftID operator[](IntType index) const {return gift_ids[index];}
-
+    GiftID GetGift(IntType index)const{return gift_ids[index]; }
 
 
 
@@ -72,12 +79,16 @@ public:
         }
     }
 
-    FloatType EstRemoveNode(IntType index);
 
-    FloatType EstAddNode(size_t pos, GiftID gift_id);
+    FloatType EstRemoveNode(IntType index) const;
+    FloatType EstAddNode(size_t pos, GiftID gift_id) const;
+    FloatType EstChangeNode(size_t pos, GiftID gift_id) const;
+
+    friend class ChangedNodeGiftGetter;
+
 protected:
-    const Location & PrevLoc(IntType pos);
-    const Location & NextLoc(IntType pos);
+    const Location & PrevLoc(IntType pos) const;
+    const Location & NextLoc(IntType pos) const;
 private:
 	GlobalGiftData gift_data;
 
@@ -87,11 +98,17 @@ private:
 
 
 
+vector<FloatType> routes_eval_values(GlobalGiftData g_data,
+                                     const vector<Route> & routes);
+
 FloatType route_evaluation(GlobalGiftData g_data,
                            const Route & r);
+
 FloatType evaluate_solution(
         GlobalGiftData g_data,
         const vector<Route> & routes);
+
+//FloatType evaluate_solution(const Solution & sol);
 
 IntType
 GetGiftIDSCount(const vector<Route> & routes);

@@ -8,6 +8,16 @@
 using FloatType = double;
 using IntType = int;//unsigned long;
 
+//using VehicleId = IntType;
+namespace internal {
+    struct RouteIDTag { };
+    struct GiftIDTag { };
+}
+
+//using RouteID = Explicit<IntType, internal::RouteIDTag>;
+//using GiftID = Explicit<IntType, internal::GiftIDTag>;
+using RouteID = IntType;
+using GiftID = IntType;
 
 
 

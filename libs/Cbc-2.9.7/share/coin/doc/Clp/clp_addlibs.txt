@@ -1,0 +1,1 @@
+-L/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/lib -lClpSolver -lClp -lCoinUtils -lbz2 -lz -llapack -lblas -lm  

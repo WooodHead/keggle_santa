@@ -1,0 +1,10 @@
+prefix=/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7
+libdir=/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/Cbc/src
+
+Name: CBC
+Description: COIN-OR Branch and Cut
+URL: https://projects.coin-or.org/Cbc
+Version: 2.9.7
+Libs: ${libdir}/libCbcSolver.la ${libdir}/libCbc.la 
+Cflags: -I/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/Cbc/src -I/home/alexey/development/cpp_projects/keggle_santa/libs/Cbc-2.9.7/Cbc/src
+Requires: osi-clp cgl osi coinutils 

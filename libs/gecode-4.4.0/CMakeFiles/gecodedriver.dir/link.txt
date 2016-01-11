@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgecodedriver.a  CMakeFiles/gecodedriver.dir/gecode/driver/options.cpp.o CMakeFiles/gecodedriver.dir/gecode/driver/script.cpp.o CMakeFiles/gecodedriver.dir/gecodedriver_automoc.cpp.o
+/usr/bin/ranlib libgecodedriver.a

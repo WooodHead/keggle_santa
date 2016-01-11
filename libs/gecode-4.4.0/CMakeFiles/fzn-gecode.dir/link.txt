@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/fzn-gecode.dir/tools/flatzinc/fzn-gecode.cpp.o CMakeFiles/fzn-gecode.dir/fzn-gecode_automoc.cpp.o  -o bin/fzn-gecode -rdynamic libgecodeflatzinc.a libgecodegist.a libgecodeminimodel.a libgecodedriver.a libgecodeset.a libgecodesearch.a libgecodefloat.a libgecodeint.a libgecodekernel.a libgecodesupport.a -lpthread -lQtGui -lQtCore 
